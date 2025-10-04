@@ -1,0 +1,16 @@
+.selectionModeContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+}
+
+.selectionActions
+{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
