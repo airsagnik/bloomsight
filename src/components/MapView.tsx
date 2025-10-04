@@ -28,7 +28,7 @@ const LocationMarkers: React.FC<LocationMarkersProps> = ({ index }) => {
         return "lightgreen";
     };
 
-    const map = useMapEvents({
+    useMapEvents({
         click(e) {
             setMarkers((prevValue) => [...prevValue, e.latlng]);
             sendDrawData?.(markers);
